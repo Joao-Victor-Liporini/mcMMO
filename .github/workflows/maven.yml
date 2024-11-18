@@ -21,6 +21,8 @@ on:
     - 'src/**'
     - 'pom.xml'
 
+  workflow_dispatch:
+
 jobs:
   compile:
     name: Maven compiler
